@@ -23,4 +23,10 @@ public class ClienteDTO {
         this.senha = senha;
         this.role = role;
     }
+
+    public ClienteDTO(String nome, String email, String senha) {
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
+    }
 }
